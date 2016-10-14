@@ -1,0 +1,174 @@
+/*Set the Background of the body*/
+body{
+	/*background: black;*/
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	font-size: 20px;
+}
+p{
+	text-align: justify;s
+}
+#border {
+	/*border-style: solid;*/
+    border-bottom: thick dotted #ff0000;
+}
+
+@media (min-width: 1700px) {
+    #border {
+        background: url("../img/th.jpeg") no-repeat;
+		background-position:right bottom;
+    }
+}
+
+@media (max-width: 1100px){
+	#carousel-heading{
+		display: none;
+	}
+}
+/*set the color of navbar*/
+.navbar{
+	background: #edebe8;
+	background-color: rgba(0,0,0,0.6);
+}
+
+a{
+	color: #c2c1be;
+}
+
+a:hover {
+	filter: brightness(60%);
+}
+/*set the width of logo*/
+.navbar-brand img{
+	width: 130px;
+}
+/*set the logo padding to 0*/
+.navbar-brand{
+	padding: 0px;
+}
+/*setting the allignment to the center*/
+.cities li {
+	text-align: center;
+	color: green;
+}
+/*Setting the divider*/
+.dropdown-menu .divider{
+	margin: 0px;
+}
+
+/*setting the header of dropdown list to 10px*/
+.dropdown-header{
+	font-size: 10px;
+}
+/*setting the color of font*/
+.dropdown-menu li a {
+	text-align: center;
+	color: #337ab7;
+}
+
+/*showing the side tab icon*/
+.navbar-toggle .icon-bar {
+	background:pink;
+}
+.navbar-toggle{
+	background-color: white;
+	border-color: pink;
+}
+/*Setting corousel background images*/
+#mycarousel {
+	margin-top: 126px;
+	/*width: 1920px;*/
+}
+
+#carousel-caption {
+	font-size: 24px; 
+}
+
+.item h4{
+	color: orange;
+}
+#carousel-heading{
+	margin: 20px 0px 0px;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	letter-spacing: 4px;
+	font-family: 'Indie Flower', cursive;
+	/*background: #f8fbf3;*/
+}
+.row {
+	margin: 10px 0px;
+}
+.row #alertheading{
+	margin-top: 0px;
+}
+@media (min-width: 1000px)
+{
+#bangalore {
+	background: url(../img/1.jpg) no-repeat;
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	filter: brightness(80%);
+}
+
+#pune {
+	background: url(../img/2.jpg) no-repeat;
+	width: 100%;
+	height: 240px;
+	text-align: center;
+	filter: brightness(80%);
+}
+
+#chandigarh {
+	background: url(../img/3.jpg) no-repeat;
+	width: 100%;
+	height: 240px;
+	text-align: center;
+	filter: brightness(80%);
+}
+}
+.tab-content {
+	font-family: 'Dancing Script', cursive;
+}
+
+.review1 {
+	width: 200px;
+	margin: 20px 10px;
+}
+
+@media (max-width: 1000px)
+{
+	#cities{
+		display: none;
+	}
+}
+#bigCallout {
+	background-image: url("../img/back.jpg");
+	background-size: cover;
+}
+a img {
+	margin: 0px 0px 10px;
+}
+
+/*footer section*/
+footer{
+	background: black;
+}
+footer #footer{
+	background: black;
+	color: white;
+}
+footer li {
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+}
+
+#family{
+	width: 550px;
+}
+
+i{
+	position: right-bottom;
+}
